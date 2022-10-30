@@ -1,0 +1,23 @@
+//img{
+   // width: 100%;
+  //  height: auto;
+   // border-radius: 5px;
+   // border-style: inset;
+   // border-color: #0082e6;
+  //}
+h1 {
+    color: #0082e6;
+}
+.sombra{
+  display: block;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.sombra img	{
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border-style: hidden;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0,0.6);
+}

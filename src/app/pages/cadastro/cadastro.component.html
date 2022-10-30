@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Cadastro Estacionamento</h1>
+        <p>Complete com seus dados</p>
+
+    </div>
+
+      <form class="container-fluid">
+        <fieldset class="grupo">
+          <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome" autofocus>
+          </div>
+
+          <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Insira seu sobrenome">
+          </div>
+
+          <div class="campo">
+            <label for="cpf"><strong>CPF</strong></label>
+            <input type="text" name="cpf" id="cpf" placeholder="Apenas números" required>
+
+          </div>
+
+          <div class="campo">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" name="email" id="email" placeholder="Insira seu e-mail">
+          </div>
+
+          <div class="campo">
+            <label for="telefone"><strong>Telefone</strong></label>
+            <input type="text" name="telefone" id="telefone" maxlength="11" placeholder="Número de telefone" required>
+          </div>
+
+          <div class="campo">
+            <label for="cidade"><strong>Cidade</strong></label>
+            <input type="text" name="cidade" id="cidade" placeholder="Insira sua cidade">
+          </div>
+
+          <div class="campo">
+            <label for="estado"><strong>Seu estado</strong></label>
+            <select name="estado" id="estado"> <!--cria um campo de escolha única-->
+              <option selected value="">Selecione uma opção</option>
+              <option value="ac">AC</option>
+              <option value="al">AL</option>
+              <option value="ap">AP</option>
+              <option value="am">AM</option>
+              <option value="ba">BA</option>
+              <option value="ce">CE</option>
+              <option value="df">DF</option>
+              <option value="es">ES</option>
+              <option value="go">GO</option>
+              <option value="ma">MA</option>
+              <option value="mt">MT</option>
+              <option value="ms">MS</option>
+              <option value="mg">MG</option>
+              <option value="pa">PA</option>
+              <option value="pb">PB</option>
+              <option value="pr">PR</option>
+              <option value="pe">PE</option>
+              <option value="pi">PI</option>
+              <option value="rj">RJ</option>
+              <option value="rn">RN</option>
+              <option value="rs">RS</option>
+              <option value="ro">RO</option>
+              <option value="rr">RR</option>
+              <option value="sc">SC</option>
+              <option value="sp">SP</option>
+              <option value="se">SE</option>
+              <option value="to">TO</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="cep"><strong>CEP</strong></label>
+            <input type="text" name="cep" id="cep" maxlength="9" placeholder="13483-000">
+          </div>
+        </fieldset>
+
+        <fieldset class="grupo">
+          <div class="campo">
+          <label for="veiculo"><strong>Tipo do Veículo</strong></label>
+          <select name="veiculo" id="veiculo"> <!--cria um campo de escolha única-->
+            <option value="selecione">Selecione uma opção</option>
+            <option value="carro">Carro</option>
+            <option value="moto">Moto</option>
+            <option value="caminhonete">Caminhonete</option>
+          </select>
+         </div>
+
+         <div class="campo">
+          <label><strong>Classe do Véiculo:</strong></label>
+          <input type="radio" name="classe_veiculo" value="sedan">Sedan
+          <input type="radio" name="classe_veiculo" value="hatch">Hatch
+          <input type="radio" name="classe_veiculo" value="suv">SUV
+          <input type="radio" name="classe_veiculo" value="moto">Moto
+         </div>
+
+         <div class="campo">
+          <label for="modelo"><strong>Informe o modelo do veículo</strong></label>
+          <input type="text" name="modelo" id="modelo" placeholder="Veículo">
+        </div>
+
+        <div class="campo">
+         <label for="marca"><strong>Informe a marca do veículo</strong></label>
+         <input type="text" name="marca" id="marca" placeholder="Marca">
+        </div>
+
+        <div class="campo">
+          <label for="placa"><strong>Placa do veículo</strong></label>
+          <input type="text" name="placa" id="placa" placeholder="Insira a  placa do veiculo">
+        </div>
+
+        <div class="campo">
+         <label for="comentario"><strong>comentários: </strong></label> <br>
+         <textarea name="comentario" id="comentario" rows="6" style="width: 22em" placeholder="Insira sua sugestão ou comentário"></textarea>
+        </div>
+
+        <div>
+          <button class="btn btn-primary" type="submit">Enviar</button>
+          <button class="btn btn-primary" type="reset">Resetar</button>
+        </div>
+        </fieldset>
+
+      </form>
+
+</body>
+</html>
