@@ -9,7 +9,7 @@ Alexandre Moreno de Assis - 202051866462<br>
 João Felipe Guimarães Juliá - 202203419201<br>
 Leonardo Henrique Caxias Cremonese - 202212039554<br>
 
-Esse projeto foi onde aprendemos a utilizar o framework Angular!
+Esse projeto foi onde aprendemos a utilizar o framework Angular! <br>
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 14.2.6.
 
 ## Servidor de desenvolvimento
